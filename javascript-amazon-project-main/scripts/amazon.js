@@ -62,7 +62,7 @@ products.forEach((product)=>{
   
     document.querySelector('.js-products-grid').innerHTML = productsHTML;
 
-    function updateCartQuanity()
+    function updateCartQuantity()
     {
          let cartQuantity = 0;
 
@@ -83,7 +83,7 @@ products.forEach((product)=>{
             const productID  = button.dataset.productID;
 
             addToCart(productID)
-            updateCartQuanity()
+            updateCartQuantity()
 
            
 
