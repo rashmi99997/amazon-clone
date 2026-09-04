@@ -36,6 +36,11 @@ describe('test suite: renderOrderSummary', () => {
 
     it('displays the cart', () => {
         // test 1
+         expect(
+            document.querySelectorAll('.js-cart-item-container').length
+        ).toEqual(2);
+
+        document.querySelector('.js-test-container').innerHTML = '';
     });
 
     it('removes a product', () => {
